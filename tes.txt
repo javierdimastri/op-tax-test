@@ -1,0 +1,10 @@
+- Hitung pajak tahunan
+- variabel: gaji (hitungan bulanan, hitungan tahunan), skema tax(5, 15, 25, 30) in percent
+- kena perhitungan pajak dengan kondisi:
+  1. 0-50 jt --> 5%
+  2. 50-250 jt --> 15%
+  3. 250-500 jt --> 25%
+  4. >=500 jt --> 30%
+
+  Annual Tax on this Income = (50.000.000 * 5%) + (200.000.000 * 15%) + (50.000.000* 25%) = 45.000.000
+  count = 16.6% * 0.5 + 66.67% * 0.15 + 16.6% * 0.25
