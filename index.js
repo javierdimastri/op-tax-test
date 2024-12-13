@@ -7,6 +7,7 @@ stdin.on("data", data => {
 const annualIncome = data * 12;
 const annualTaxableIncome = countAnnualTaxableIncome(annualIncome);
 
-console.log(`Annual Taxable Income: ${annualTaxableIncome}`);
+console.log(`Annual Income: ${annualIncome}`);
+console.log(`Annual Tax on this Income: ${annualTaxableIncome}`);
 process.exit(0);
 });
